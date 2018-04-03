@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class arraywithscanner {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+		
+		Scanner Scanner= new Scanner(System.in);
+		System.out.print("Pick 6 numbers");
+		
+		int x []=new int[2];
+		int y []= new int[2];
+		int z []= new int [2];
+		
+		x [0]= Scanner.nextInt();
+		y [0]= Scanner.nextInt();
+		z [0]= Scanner.nextInt();
+		
+		x [1]= Scanner.nextInt();
+		y [1]= Scanner.nextInt();
+		z [1]= Scanner.nextInt();
+		
+		for (int i = 0; i < x.length; ++i) {
+		    z[i] = x[i] + y[i];
+		    
+		    
+		    System.out.println(z[i]);
